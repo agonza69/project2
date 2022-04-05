@@ -1,0 +1,83 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: cyan;
+  height: 100%;
+}
+
+img{
+
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+/*fixes position of giphy display area*/
+#gif-area {
+  position:absolute;
+  left:50px;
+  top: 50px;
+}
+
+#submit{
+
+position: absolute;
+left: 285px;
+top: 15px;
+transition-duration: 0.4s;
+}
+
+#submit:hover{
+
+  background-color: blue; 
+  color: white;
+
+}
+
+#btn{
+
+  position: absolute;
+  left: 380px;
+  top: 65px;
+  transition-duration: 0.4s;
+}
+
+#btn:hover{
+  background-color: blue; 
+  color: white;
+}
+
+#btn2{
+
+  position: absolute;
+  left: 475px;
+  top: 65px;
+  transition-duration: 0.4s;
+}
+
+#btn2:hover{
+
+  background-color: blue; 
+  color: white;
+
+}
+
+h1{
+
+  position: absolute;
+  top: 1600px;
+  left: 40px;
+  font-size: 160px;
+}
+
+
+
+/*fixes the position of the canvas*/
+#sketch-holder{
+  position:absolute;  
+  left:900px;
+  top: 25px;
+}
+
